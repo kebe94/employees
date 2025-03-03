@@ -5,14 +5,11 @@ package com.kebe94.employees.department.service;
 import com.kebe94.employees.department.Department;
 import com.kebe94.employees.department.DepartmentRepository;
 import com.kebe94.employees.divers.Generate;
-import com.kebe94.employees.employee.Employee;
 import com.kebe94.employees.exception.ResourceNotFoundException;
 import lombok.AllArgsConstructor;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
